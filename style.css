@@ -20,7 +20,13 @@ section {
     background-color: black;
     color: white;
 }
+#menu {
+    display: none;
+}
 
+#menu.show {
+    display: block;
+}
 button {
     padding: 10px;
 }

@@ -1,7 +1,9 @@
 function changeMode() {
     document.body.classList.toggle("dark");
 }
-
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("show");
+}
 function validateForm() {
 
     let name = document.getElementById("name").value;
